@@ -1,0 +1,17 @@
+{
+  "name": "integration_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prestart": "node ./scripts/wait-for-backend.js",
+    "start": "next start -p ${PORT:-3000}",
+    "predev": "node ./scripts/wait-for-backend.js || true",
+    "dev": "next dev -p ${PORT:-3000}",
+    "build": "next build"
+  },
+  "dependencies": {
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
