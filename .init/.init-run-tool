@@ -1,0 +1,4 @@
+{
+    "command": "npm run dev -- -p <port> -H <host>",
+    "working_directory": "/home/kavia/workspace/code-generation/unified-jira-confluence-interface-146751-146760/integration_frontend"
+}
